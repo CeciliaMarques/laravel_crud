@@ -36,7 +36,7 @@
             </div>
             </br>
             <div class="form-group">
-                <button type="submit" class="btn btn-lg btn-success" name="atualizar">Editar</button>
+                <button type="submit" class="btn btn-lg btn-success" name="atualizar">Atualizar</button>
             </div>
             </br>
         </form>
