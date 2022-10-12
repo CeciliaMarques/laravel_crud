@@ -16,7 +16,7 @@
         <form action="{{ route('pegar_rota') }}" method="POST">
             @csrf
             <div class="form-group">
-                <input type="hidden" class="form-control" name="id" value="{{$usuario['id']}}" requiredd>
+                <input type="hidden" class="form-control" name="id" value="{{$usuario['id']}}" required>
             </div>
             <div class="form-group">
                 <label for="nome"> Nome: </label>
