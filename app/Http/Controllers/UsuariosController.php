@@ -9,9 +9,8 @@ class UsuariosController extends Controller
 {
     public function index($id = null)
     {
-        $_GET['id'] = $id;
        
-        if (is_numeric($_GET['id'])){ 
+        if (is_numeric($id)){ 
             
             $usuario = Usuarios::find($id);
         }
